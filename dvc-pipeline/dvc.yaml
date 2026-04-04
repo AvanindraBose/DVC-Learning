@@ -25,5 +25,5 @@ stages:
     - data/final
     - models/model.pkl
     - src/model/evaluate.py
-    outs:
+    metrics:
     - reports/metrics.json
