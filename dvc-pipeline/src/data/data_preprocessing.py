@@ -11,7 +11,7 @@ def main():
     y = df["petal length (cm)"]
 
     X_train, X_test, y_train, y_test = train_test_split(
-        X, y, test_size=0.2, random_state=42
+        X, y, test_size=0.5, random_state=42
     )
 
     out_path = root_path/  "data"/"final"
