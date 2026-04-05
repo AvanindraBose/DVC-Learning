@@ -11,8 +11,8 @@ data_path = root_path/"data"/"student_data.csv"
 
 df = pd.read_csv(data_path)
 
-n_estimators = 500
-max_depth = 4
+n_estimators = 100
+max_depth = 6
 rf = RandomForestClassifier(n_estimators=100,max_depth=6)
 
 X = df.drop(columns=['Placed'])
