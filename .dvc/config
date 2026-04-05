@@ -1,5 +1,5 @@
 [core]
-    remote = awsstore
+    remote = myremote
 ['remote "myremote"']
     url = C:\Users\AVANIN~1\AppData\Local\Temp\dvc-demo-storage
 ['remote "awsstore"']
