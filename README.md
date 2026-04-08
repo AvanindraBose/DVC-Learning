@@ -18,3 +18,5 @@ Therefore:
 dvc.lock → used for pipeline tracking
 dvc.yaml → dvc.lock (centralized metadata)
 Both serve similar purposes but are used in different contexts.
+
+AWS Steps:
